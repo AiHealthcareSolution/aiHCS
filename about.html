@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us | AiHCS</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Technology</a>
+            <a href="safety.html">Safety</a>
+            <a href="index.html"><img id="logo" src="images/logo.jpg" alt="logo"></a>
+            <a href="careers.html">Careers</a>
+            <a onclick="openMenu()">
+                <div class="dot-flex" >
+                    Menu 
+                    <div class="dots">
+                        <img src="images/dots4.png" alt="">
+                    </div>
+                </div>
+            </a>
+
+        </nav>
+    </header>
+
+    <div id="menu">
+        <img src="images/logo.png" id="menulogo" alt="">
+        <img src="images/x.svg" id="closeMenu" onclick="closeMenu()" alt="close">
+        <div class="menu-content">
+            <a href="index.html">Technology</a>
+            <a href="safety.html">Safety</a>
+            <a href="careers.html">Careers</a>
+            <a class="active" href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="community.html">Community</a>
+        </div>
+    </div>
+
+    <main>
+        <div class="hero-image">
+            <img src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 1.png" alt="">
+            <div class="hero-image-overlay padding-mobile-none">
+
+                <h2>This is aiHCS <br> We are building a new kind of healthcare innovation
+                </h2>
+            </div>
+        </div>
+
+        <div class="career-gridx2">
+            <div class="career-grid-item">
+                <h2 class="highlight">COMPANY OVERVIEW
+                </h2>
+                <h3>aiHCS, from the ground up
+                </h3>
+            </div>
+
+            <div class="career-grid-item">
+                <p>aiHCS was founded to make ai healthcare innovation safer and reliable—for everyone. To achieve that
+                    goal, the team created a whole new form of ai health care solution.
+
+                </p>
+                <p>aiHCS will offer AI healthcare inquiry services accessible on smartphones, tablets, and computers. We
+                    will manage the process of seeking immediate medical attention, scheduling doctor's appointments, or
+                    ordering medications for patients from pharmacies. The patient will pay for extra services.
+                </p>
+                <p>We are focused on testing with hospitals, pharmaceutical companies, and laboratories as we move
+                    towards launching the initial version of aiHCS.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 2.png" alt="">
+            <div class="hero-image-overlay padding-mobile-none">
+                <div>
+                    <h2>Timeline <br> Our journey so far </h2>
+                   <!--  <br> -->
+                    <a class="btn">
+                        <p>Explore the timeline</p>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="text-section">
+            <h2 class="highlight">LEADERSHIP
+            </h2>
+            <p>We are disruptors and builders, thinkers and doers.
+            </p>
+        </div>
+
+        <div class="leaders">
+            <div class="leader">
+                <div class="profile">
+                    <img src="images/about/2022-08-31_12-46-05_08.jpg" alt="">
+                    <a class="btn" onclick="openBio('leader1')">READ BIO</a>
+                </div>
+
+                <p>Amadou Sow</p>
+                <p>CEO</p>
+            </div>
+
+           <!--  <div class="leader">
+                <div class="profile">
+                    <img src="images/about/2022-08-31_12-51-18_51.jpg" alt="">
+                    <a class="btn" onclick="openBio('leader2')">READ BIO</a>
+                </div>
+
+                <p>Amadou Sow</p>
+                <p>CEO</p>
+            </div> -->
+        </div>
+
+       
+
+
+
+
+        <!--<div class="text-section">
+            <h2>EXECUTIVE LEADERSHIP
+            </h2>
+
+        </div>
+
+        <div class="team-grid mx-1000">
+            <img class="team-leader" src="images/career/Stocksy_txp226f62b2aNe300_Medium_4582193 16-5.png" alt="">
+            <img src="images/career/Stocksy_txp226f62b2aNe300_Medium_4582193 16-6.png" alt="">
+            <img src="images/career/Stocksy_txp226f62b2aNe300_Medium_4582193 16-7.png" alt="">
+            <img src="images/career/Stocksy_txp226f62b2aNe300_Medium_4582193 16-8.png" alt="">
+        </div>-->
+
+        <div class="text-section">
+            <h2>CAREERS
+            </h2>
+            <p>A talented team for a great vision
+            </p>
+
+            <a class="btn" href="careers.html">Join the team</a>
+
+        </div>
+
+        <div class="about-grid">
+            <img src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 12.png" alt="">
+            <img class="about-grid-center-image" src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 11.png"
+                alt="">
+            <img src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 13.png" alt="">
+            <img src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 14.png" alt="">
+            <img src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 14 (1).png" alt="">
+            <img src="images/about/Stocksy_txp226f62b2aNe300_Medium_4582193 15.png" alt="">
+        </div>
+
+    </main>
+
+    <div class="bio-container" id="leader1">
+        <div class="person">
+            <img src="images/about/2022-08-31_12-51-18_51.jpg" alt="">
+            <div class="person-details">
+                <h2>Amadou Sow</h2>
+                <h3>CEO</h3>
+                <p>
+                    Amadou Sow Joined aiHCS as the Chief executive Officer (CEO) in October 2023. Prior to aiHCS.
+                    Amadou is pursuing a Bachelor's degree in Computer Science from IU International University.
+                    <br><br>
+
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/amadou-/" target="_blank"><img src="images/home/Social Icons.png" alt="linkedIn"></a>
+                        <a href="https://twitter.com/Amadous95787957" target="_blank"><img src="images/x.png" alt="X/Twitter"></a>
+                    </div>
+            </div>
+            <img src="images/x.svg" class="close-bio" onclick="closeBio('leader1')" alt="">
+        </div>
+    </div>
+
+   <!--  <div class="bio-container" id="leader2">
+        <div class="person">
+            <img src="images/about/2022-08-31_12-51-18_51.jpg" alt="">
+            <div class="person-details">
+                <h2>Amadou Sow</h2>
+                <h3>CEO</h3>
+                <p>
+                    Amadou Sow Joined aiHCS as the Chief executive Officer (CEO) in October 2023. Prior to aiHCS.
+                    Amadou is pursuing a Bachelor's degree in Computer Science from IU International University.
+                    <br><br>
+                    <div class="socials">
+                       <a href="https://www.linkedin.com/in/amadou-/" target="_blank"><img src="images/home/Social Icons.png" alt="linkedIn"></a>
+                        <a href="https://twitter.com/Amadous95787957" target="_blank"><img src="images/x.png" alt="X/Twitter"></a>
+                    </div>
+            </div>
+            <img src="images/x.svg" class="close-bio" onclick="closeBio('leader2')" alt="">
+        </div>
+    </div> -->
+
+    <footer>
+        <div class="footerlogomobile">
+            <img class="logomobile" src="images/logo.png" alt="">
+        </div>
+       
+        <div class="footer-top">
+            
+            <div class="footer-logo-nav">
+                <img src="images/logo.png" alt="">
+                <div class="footer-nav">
+                    <p>TECHNOLOGY </p>
+                    <a  href="index.html">Technology</a>
+                    <a href="safety.html">Safety</a>
+                </div>
+            </div>
+
+
+            <div class="footer-nav">
+                <p>COMPANY </p>
+                <a class="active" href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="careers.html">Career</a>
+            </div>
+
+            <div class="footer-nav">
+                <p>LEARN MORE</p>
+                <a href="community.html">Community</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <a href="privacypolicy.html">PRIVACY POLICY</a>
+            <a href="termsofuse.html">TERMS OF USE</a>
+            <a href="contact.html">NEWSLETTER</a>
+            <p>Copyright aiHCS, Inc. 2023. All Rights Reserved.
+            </p>
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/aihcs/" target="_blank" title="LinkedIn"><img src="images/home/Social Icons.png" alt=""></a>
+                <a href="https://twitter.com/AiHcs56738" target="_blank" title="X/Twitter"><img src="images/x.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/aiHCS/" target="_blank" title="Instagram"><img
+                        src="images/home/Social Icons-2.png" alt="Instagram"></a>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/SmoothScroll.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/bio.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>
